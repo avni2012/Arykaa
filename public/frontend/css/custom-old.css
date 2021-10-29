@@ -1,0 +1,166 @@
+/* ------------------------------------ */
+    /*  First Page (Templates View)  */
+/* ------------------------------------ */
+
+#container_template {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+#container_template img {
+  width: 100%;
+  height: auto;
+}
+		#container_template .btn {
+  position: absolute;
+  top: 88%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#container_template .btn:hover {
+  background-color: black;
+}
+
+/* ------------------------------------------------ */
+    /*  View Page (Templates View as per Form)  */
+/* ------------------------------------------------ */
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #fff;
+}
+
+.right {
+  right: 0;
+  /*background-color: gray;*/
+  background-color: rgb(122, 133, 153);
+}
+
+.centered {
+  width: 100%;
+}
+
+.centered img {
+  width: 60px;
+}
+
+.select_frame{
+  width: 80%; 
+  /*height: 600px; */
+  /*height: 565px;*/
+  max-width: 530px;
+  background-color: white; 
+  border: none; 
+  border-radius: 10px; 
+  color: black;
+  font-size: 10px;
+  display: flex;
+  margin: auto;
+  zoom: 0.6;
+}
+
+.active-header:hover {
+  background-repeat: no-repeat;
+  background-position: right 50%;
+}
+
+.inactive-header {
+  background-repeat: no-repeat;
+  background-position: right 50%;
+}
+
+.inactive-header:hover {
+  background-repeat: no-repeat;
+  background-position: right 50%;
+}
+
+.accordion-content {
+  display: none;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-top: 0;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  height: 390px;
+}
+
+#showProfileImage{
+    width: 30%;
+  }
+  .chip{
+        display: inline-block;
+    height: 32px;
+    padding: 0 12px;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    background-color: #eceff1;
+    border-radius: 16px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  .chip:hover {
+    color: #007bff;
+    background-color: #ADD8E6;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.chip .close {
+    float: right;
+    padding-left: 8px;
+    font-size: 16px;
+    line-height: 32px;
+        font-weight: 700;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    cursor: pointer;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+tr#SkillDetails_new td {
+    width: 33.33%;
+    min-width: 33.33%;
+    max-width: 33.33%;
+    padding-left: 5px;
+    padding-right: 5px;
+    word-break: break-word;
+}
+
+.extra-section:hover {
+  color: #007bff;
+}
+
+#DownloadPDF{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+  }
